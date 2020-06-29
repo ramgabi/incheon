@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+.footer{width:100%;position:relative;background-color:#002e9c;margin-top:40px;color:#fff;font-weight:lighter;padding-bottom:25px}
+
+.footer_top{width:100%;height:45px;line-height:45px;position:relative;border-bottom:1px solid #fff;padding-left:3.5%}
+.footer_top .tell{font-size:16px;padding-left:25px;background:url(../images/call.png) no-repeat left center / 17px;width:100%}
+.footer_top .tell strong{color:#fffd80;margin-left:8px}
+
+.footer_bottom{width:100%;padding:0 3.5%;margin-top:20px;font-size:14px}
+.footer_bottom .footer_menu{display:flex;flex-wrap:wrap;height:20px;margin-bottom:40px}
+
+.footer_menu li{margin-right:20px;line-height:20px;position:relative}
+.footer_menu li:after{content:'';position:absolute;top:5px;right:-10px;width:1px;height:9px;background-color:#fff}
+.footer_menu li:last-child:after{display:none}
+.footer_menu li a{color:#fff}
+
+.footer_bottom .add{margin-top:15px;line-height:1.7}
+.footer_bottom .copy{margin-top:10px;opacity:0.5}
